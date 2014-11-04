@@ -1,10 +1,15 @@
 ﻿Name: Rimango.Utilities
 AntiForgery: enabled
-Author: The Orchard Team
-Website: http://orchardproject.net
-Version: 1.0
-OrchardVersion: 1.0
-Description: Description for the module
+Author: Rimango Development
+Website: http://orchard-demos.neuhold.pro
+Version: 0.1
+OrchardVersion: 1.8.1
+Description: A set of usefull stuff.
 Features:
-    Rimango.Utilities:
-        Description: Description for feature Rimango.Utilities.
+	Rimango.Tokens.ContentTokens:
+		Name: Rimango ContentTokens
+        Description: Extends the Content Token with custom Tokens like Content.User etc.
+		Dependencies: Orchard.Users, Orchard.Tokens
+	Rimango.Workflows.UserActivities:
+		Description: Adds Events for LoggedIn, LoggedOut, Registered, ... to the Workflow Module
+		Dependencies: Orchard.Users, Orchard.Workflows
