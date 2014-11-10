@@ -24,6 +24,9 @@ namespace Rimango.Workflows
             public static readonly string UserEmailConfirmed = "UserEmailConfirmed";
 
             public static readonly string UserApproved = "UserApproved";
+
+            public static readonly string UserLoginFailed = "UserLoginFailed";
+
         }    
     }
 

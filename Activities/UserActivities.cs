@@ -2,8 +2,10 @@
 {
     using System.Collections.Generic;
 
+    using Orchard.ContentManagement;
     using Orchard.Environment.Extensions;
     using Orchard.Localization;
+    using Orchard.Roles.Models;
     using Orchard.Workflows.Models;
     using Orchard.Workflows.Services;
 

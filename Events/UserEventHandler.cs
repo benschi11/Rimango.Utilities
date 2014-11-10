@@ -32,6 +32,10 @@
                                     });
         }
 
+        public void LoggingIn(string userNameOrEmail, string password) {
+            
+        }
+
         public void LoggedIn(IUser user)
         {
             this._workflowManager.TriggerEvent(Globals.EventNames.UserLoggedIn, 
@@ -41,6 +45,10 @@
                                         { "User", user },
                                         {"Content", user.ContentItem}
                                     });
+        }
+
+        public void LogInFailed(string userNameOrEmail, string password) {
+            // TODO Raise Event here
         }
 
         public void LoggedOut(IUser user)
