@@ -3,7 +3,7 @@ AntiForgery: enabled
 Author: Rimango Development
 Website: http://orchard-demos.neuhold.pro
 Version: 0.1
-OrchardVersion: 1.8.1
+OrchardVersion: 1.9
 Description: A set of usefull stuff.
 Features:
 	Rimango.Tokens.ContentTokens:
