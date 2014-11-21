@@ -26,8 +26,15 @@ namespace Rimango.Workflows
             public static readonly string UserApproved = "UserApproved";
 
             public static readonly string UserLoginFailed = "UserLoginFailed";
+        }
 
-        }    
+        public struct WorkflowParams {
+            public static readonly string DefaultUserName = "DefaultUserName";
+        }
+
+        public struct Forms {
+            public static readonly string SetCurrentUserForm = "SetCurrentUserForm";
+        }
     }
 
 
