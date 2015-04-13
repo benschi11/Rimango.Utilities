@@ -26,7 +26,8 @@ namespace Rimango.Utilities.Providers {
         public void Evaluate(EvaluateContext context)
         {
             context.For<string>("Text")
-                .Token("StripHtml", HtmlHelper.StripHtml);
+                .Token("StripHtml", HtmlHelper.StripHtml)
+                .Chain("StripHtml", "Text", HtmlHelper.StripHtml);
         }
     }
 }
